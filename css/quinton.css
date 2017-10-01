@@ -166,6 +166,15 @@ header.masthead {
   margin: 15px 0;
   text-transform: none; }
 
+.aboutme {
+  min-height: 400px;
+}
+
+
+.skillssection {
+  min-height: 400px;
+}
+
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px; }
