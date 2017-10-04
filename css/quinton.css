@@ -541,18 +541,22 @@ ul.social-buttons {
 
 .btn-primary {
   color: white;
+  border-radius: 300px;
   border-color: #EF744D;
   background-color: #EF744D; }
   .btn-primary.focus, .btn-primary:focus {
     color: white;
+    border-radius: 300px;
     border-color: #C8643C;
     background-color: #C8643C; }
   .btn-primary:hover {
     color: white;
+    border-radius: 300px;
     border-color: #C8643C;
     background-color: #C8643C; }
   .btn-primary.active, .btn-primary:active,
   .open > .btn-primary.dropdown-toggle {
+    border-radius: 300px;
     color: white;
     border-color: #f6bf01;
     background-color: #fec503; }
@@ -560,6 +564,7 @@ ul.social-buttons {
     .open > .btn-primary.dropdown-toggle.focus,
     .open > .btn-primary.dropdown-toggle:focus,
     .open > .btn-primary.dropdown-toggle:hover {
+      border-radius: 300px;
       color: white;
       border-color: #C8643C;
       background-color: #C8643C; }
@@ -570,6 +575,7 @@ ul.social-buttons {
   fieldset[disabled] .btn-primary.focus,
   fieldset[disabled] .btn-primary:focus,
   fieldset[disabled] .btn-primary:hover {
+    border-radius: 300px;
     border-color: #C8643C;
     background-color: #C8643C; }
   .btn-primary .badge {
