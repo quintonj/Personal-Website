@@ -539,21 +539,19 @@ ul.social-buttons {
 .text-primary {
   color: #EF744D !important; }
 
+
 .btn-primary {
-  font-weight: 700;
   color: white;
   border-color: #EF744D;
-  background-color: #EF744D;
-  font-family: 'Helvetica Neue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  text-transform: uppercase; }
+  background-color: #EF744D; }
   .btn-primary.focus, .btn-primary:focus {
     color: white;
     border-color: #C8643C;
     background-color: #C8643C; }
   .btn-primary:hover {
     color: white;
-    border-color: #EF744D;
-    background-color: #EF744D; }
+    border-color: #C8643C;
+    background-color: #C8643C; }
   .btn-primary.active, .btn-primary:active,
   .open > .btn-primary.dropdown-toggle {
     color: white;
@@ -564,8 +562,8 @@ ul.social-buttons {
     .open > .btn-primary.dropdown-toggle:focus,
     .open > .btn-primary.dropdown-toggle:hover {
       color: white;
-      border-color: #EF744D;
-      background-color: #EF744D; }
+      border-color: #C8643C;
+      background-color: #C8643C; }
   .btn-primary.active, .btn-primary:active,
   .open > .btn-primary.dropdown-toggle {
     background-image: none; }
@@ -573,51 +571,18 @@ ul.social-buttons {
   fieldset[disabled] .btn-primary.focus,
   fieldset[disabled] .btn-primary:focus,
   fieldset[disabled] .btn-primary:hover {
-    border-color: #EF744D;
-    background-color: #EF744D; }
+    border-color: #C8643C;
+    background-color: #C8643C; }
   .btn-primary .badge {
     color: #EF744D;
     background-color: white; }
 
-.btn-xl {
-  font-size: 18px;
+.btn {
   font-weight: 700;
-  padding: 20px 40px;
-  border-radius: 3px;
-  color: white;
-  border-color: #EF744D;
-  background-color: #EF744D;
-  font-family: 'Helvetica Neue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  text-transform: uppercase; }
-  .btn-xl.focus, .btn-xl:focus {
-    color: white;
-    border-color: #C8643C;
-    background-color: #C8643C; }
-  .btn-xl:hover {
-    color: white;
-    border-color: #C8643C;
-    background-color: #C8643C; }
-  .btn-xl.active, .btn-xl:active,
-  .open > .btn-xl.dropdown-toggle {
-    color: white;
-    border-color: #f6bf01;
-    background-color: #fec503; }
-    .btn-xl.active.focus, .btn-xl.active:focus, .btn-xl.active:hover, .btn-xl:active.focus, .btn-xl:active:focus, .btn-xl:active:hover,
-    .open > .btn-xl.dropdown-toggle.focus,
-    .open > .btn-xl.dropdown-toggle:focus,
-    .open > .btn-xl.dropdown-toggle:hover {
-      color: white;
-      border-color: #EF744D;
-      background-color: #EF744D; }
-  .btn-xl.active, .btn-xl:active,
-  .open > .btn-xl.dropdown-toggle {
-    background-image: none; }
-  .btn-xl.disabled.focus, .btn-xl.disabled:focus, .btn-xl.disabled:hover, .btn-xl[disabled].focus, .btn-xl[disabled]:focus, .btn-xl[disabled]:hover,
-  fieldset[disabled] .btn-xl.focus,
-  fieldset[disabled] .btn-xl:focus,
-  fieldset[disabled] .btn-xl:hover {
-    border-color: #EF744D;
-    background-color: #EF744D; }
-  .btn-xl .badge {
-    color: #EF744D;
-    background-color: white; }
+  text-transform: uppercase;
+  border: none;
+  border-radius: 300px;
+  font-family: 'Helvetica Neue', 'Helvetica Neue', Arial, sans-serif; }
+
+.btn-xl {
+  padding: 15px 30px; }
