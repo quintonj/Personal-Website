@@ -67,6 +67,7 @@ body {
 #mainNav {
   background-color: #222222; }
   #mainNav .navbar-toggler {
+    border-radius: 300px;
     font-size: 12px;
     right: 0;
     padding: 13px;
@@ -540,10 +541,12 @@ ul.social-buttons {
   color: #EF744D !important; }
 
 .btn-primary {
+  border-radius: 300px;
   color: white;
   border-color: #EF744D;
   background-color: #EF744D; }
   .btn-primary.focus, .btn-primary:focus {
+    border-radius: 300px;
     color: white;
     border-color: #C8643C;
     background-color: #C8643C; }
@@ -560,6 +563,7 @@ ul.social-buttons {
     .open > .btn-primary.dropdown-toggle.focus,
     .open > .btn-primary.dropdown-toggle:focus,
     .open > .btn-primary.dropdown-toggle:hover {
+      border-radius: 300px;
       color: white;
       border-color: #C8643C;
       background-color: #C8643C; }
@@ -570,6 +574,7 @@ ul.social-buttons {
   fieldset[disabled] .btn-primary.focus,
   fieldset[disabled] .btn-primary:focus,
   fieldset[disabled] .btn-primary:hover {
+    border-radius: 300px;
     border-color: #C8643C;
     background-color: #C8643C; }
   .btn-primary .badge {
