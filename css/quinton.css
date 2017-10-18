@@ -12,7 +12,12 @@ b {
 }
 
 p {
-  line-height: 1.75; }
+  line-height: 1.75; 
+}
+
+.speciala {
+  color: #FFFFFF; 
+}
 
 a {
   color: #EF744D; }
@@ -65,7 +70,7 @@ body {
 }
 
 #arrow_down {
-  margin: 0;
+  padding-top: 0px;
 }
 
 #mainNav {
