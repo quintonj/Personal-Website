@@ -62,7 +62,11 @@ img::-moz-selection {
   background: transparent; }
 
 body {
-   }
+}
+
+#arrow_down {
+  margin: 0;
+}
 
 #mainNav {
   background-color: #222222; }
