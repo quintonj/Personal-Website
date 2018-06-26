@@ -39,10 +39,17 @@ h5 {
 
 h6 {
   font-family: 'Helvetica Neue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-style: normal;
   font-style: italic;
   font-weight: normal;
   font-size: 17px;
+}
+
+h7 {
+  font-family: 'Helvetica Neue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #868e96;
 }
 
 section {
@@ -187,11 +194,11 @@ header.masthead {
   text-transform: none; }
 
 .aboutme {
-  min-height: 400px;
+  min-height: 390px;
 }
 
 .skillssection {
-  min-height: 400px;
+  min-height: 390px;
 }
 
 #portfolio .portfolio-item {
