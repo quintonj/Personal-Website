@@ -27,12 +27,23 @@ a {
 h1,
 h2,
 h3,
-h4,
-h5,
-h6 {
+h4 {
   font-weight: 700;
   font-family: 'Helvetica Neue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase; }
+
+h5 {
+  font-size: 18px;
+  font-family: 'Helvetica Neue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h6 {
+  font-family: 'Helvetica Neue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 17px;
+}
 
 section {
   padding: 100px 0; }
