@@ -79,9 +79,9 @@ hr.divider {
   }
 }
 
-
 section {
-  padding: 150px 0; }
+  padding: 150px 0;
+  min-height: 650px; }
   section h2.section-heading {
     font-size: 40px;
     margin-top: 0;
@@ -96,7 +96,8 @@ section {
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0; } }
+    padding: 150px 0; 
+    min-height: 650px;} }
 
 ::-moz-selection {
   background: #EF744D;
@@ -111,9 +112,6 @@ img::selection {
 
 img::-moz-selection {
   background: transparent; }
-
-body {
-}
 
 #arrow_down {
   padding-top: 0px;
