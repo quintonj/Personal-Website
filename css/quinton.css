@@ -15,10 +15,6 @@ body {
   background: #EDF1F2;
 }
 
-.fa {
-  color: #FFFFFF;
-}
-
 b {
   font-size: 18px;
   color: #3C495D;
@@ -36,6 +32,10 @@ li {
 
 .speciala {
   color: #FFFFFF; 
+}
+
+.fa-3x {
+  color: white;
 }
 
 a {
