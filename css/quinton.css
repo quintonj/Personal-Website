@@ -87,18 +87,18 @@ hr {
 
 hr.divider {
   border-top: 5px solid #242A42;
-  margin: 0px 110px;
+  margin: 0px 70px;
 }
 
 @media (max-width: 60rem) {
   hr.divider {
     border-top: 5px solid #242A42;
-    margin: 0px 110px;
+    margin: 0px 15px;
   }
 }
 
 section {
-  padding: 150px 0; }
+  padding: 100px 0; }
   section h2.section-heading {
     font-size: 40px;
     margin-top: 0;
