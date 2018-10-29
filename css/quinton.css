@@ -195,7 +195,8 @@ header.masthead {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover; 
+  height: -webkit-fill-available; }
   header.masthead .intro-text {
     padding-top: 150px;
     padding-bottom: 100px; }
