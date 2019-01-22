@@ -145,12 +145,26 @@
               <img class="img-fluid" src="img/portfolio/wayfarerthumbnail.png" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Wayfarer App Design</h4>
+              <h4>Wayfarer App Mockup</h4>
               <p class="text-muted"><br/>UI / UX </p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/foodfightthumbnail.png" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Food Fight</h4>
+              <p class="text-muted"><br/>Game Design</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
@@ -164,7 +178,7 @@
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
@@ -178,7 +192,7 @@
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
@@ -192,7 +206,7 @@
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal8">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
@@ -383,7 +397,7 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2>Wayfarer App Design</h2>
+                  <h2>Wayfarer App Mockup</h2>
                   <p class="item-intro text-muted">A mockup for an app that creates a gamified hiking experience utilizing auditory cues.</p>
                   <img class="img-fluid d-block mx-auto" src="img/portfolio/wayfarerfull.png" alt="">
                   <h4>The Product</h4>
@@ -416,6 +430,57 @@
 
      <!-- Modal 4 -->
  	  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>Food Fight</h2>
+                  <p class="item-intro text-muted">A 2D action game made with Processing and Arduino</p>
+                  <video width="700" height="393" controls>
+                    <source src="img/portfolio/foodfightvideo.mp4">
+                  Your browser does not support the video tag.
+                  </video> 
+                  <p />
+                  <h4>The Product</h4>
+                  <p>Food Fight is a 2D multiplayer game that was developed with Processing and utilizes two “food trays” made up of capacitors and two Arduinos. Within a group of four, I handled all of the game’s programming, gave design input, and assisted with soldering and building the boards. To play the game, a player pulls back a spoon to fling food at the other player. There are options to switch to Jello, meatballs, peas, and mashed potatoes, each with their own unique attributes. This is done via capacitors connected to an Arduino breadboard that allow the user to tap their spoon to the tray to switch food. There is also a tilt sensor on the board that allows the user to flip up the tray to block incoming food. The first player to get the other’s health points down to 0 wins!</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/foodfightfull.png" alt="">
+                  <center><p><i>A screenshot from the game</i></p></center>
+                  <h4>The Process</h4>
+                  <p>The game design process began with the objective to create a game using a unique controller similar top Steel Battalion or Dance Dance Revolution. Our team thus set off to brainstorm a few different ideas. The initial idea came from the desire to have a two-player fighting game that revolved around a basic food fight. With the game foundation in mind, we set out to build the initial functionality to provide a proof-of-concept. This involved using a spoon with a capacitor to control an arrow on the screen. Following from this, I was able to implement the ability to shoot an object after releasing the spoon. I also began developing more features, such as controlling the physics of the different food items, including the backgrounds, and creating the environment. Meanwhile, our group created the trays and art assets for the game.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/foodfightcontroller.jpg" alt="">
+                  <center><p><i>One controller for the game</i></p></center>
+                  <p>With additional feedback from another round of playtesting I conducted, I fine-tuned the shooting mechanics, to ensure that the game was not too easy or too hard. I also tweaked the physics of each item and the threshold for flinging food and how much pressure was placed on the spoon. We were also successful in creating a second food tray and spoon. Thus, I was able to implement the last piece of the puzzle by controlling the two controller inputs at once. The final result was a bizarre, yet hilarious game.</p>
+                  <h4>The Reflection</h4>
+                  <p>Having come from a design and development background, I was completely out of my element when it came to soldering and working with microcontrollers. Despite this, I was successful in my collaboration with the team and my assistance with the project. This led me to one main conclusion:</p>
+                  <p><i><b>Don’t be afraid to learn new things</b></i>. This project gave me a chance to improve and work on a variety of new skill-sets including physical prototyping, working with Processing, and soldering. As a result, I was able to learn a lot of new things and came away much more knowledgeable and confident in my abilities.</p>
+                  <ul class="list-inline">
+                    <li><b>Date</b>: Fall 2017</li>
+                    <li><b>Tools Used</b>: Processing, Photoshop
+                    <li><b>Category</b>: Game Design, User Interface Design, User Experience</li>
+                  </ul>
+                  <div class="modalbutton">
+	                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+	                    <i class="fa fa-times"></i>
+	                    Close Project</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <!-- Modal 5 -->
+ 	  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -462,8 +527,8 @@
       </div>
     </div>
 
-    <!-- Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -488,7 +553,7 @@
                   <p><i><b>Keep the client happy</b></i>. As the originator of the idea for the project, it was important for our group to ensure that the client was satisfied with the progress our team was making. This meant we had to hold biweekly meetings to show our user stories, design ideas, and our final implementation.</p>
                   <p><i><b>Seek help early and often</b></i>. While our whole team did learn a lot throughout the creation of the app, we definitely encountered obstacles along the way. If a team member was having issues, it was important for them to bring the problem to the group so that other members could help.</p>
                   <ul class="list-inline">
-                    <li><b>Date</b>: Fall 2016 - Spring 2017</li>
+                    <li><b>Date</b>: Spring 2017</li>
                     <li><b>Source Code</b>: <a href="https://github.com/quintonj/AtlantaStreetArtProject">Found on Github</a></li>
                     <li><b>Languages Used</b>: Java, XML
                    	<li><b>Tools Used</b>: Android Studio, Sketch, InVision
@@ -507,8 +572,8 @@
       </div>
     </div>
    
-    <!-- Modal 6 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Modal 7 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -551,8 +616,8 @@
       </div>
     </div>
    
-    <!-- Modal 7 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Modal 8 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
