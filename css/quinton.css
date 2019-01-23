@@ -15,6 +15,11 @@ body {
   background: #EDF1F2;
 }
 
+video {
+  width: fit-content;
+  height: fit-content;
+}
+
 b {
   font-size: 18px;
   color: #3C495D;
