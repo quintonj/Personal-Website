@@ -16,8 +16,9 @@ body {
 }
 
 video {
-  width: fit-content;
-  height: fit-content;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
 }
 
 b {
