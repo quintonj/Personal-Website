@@ -13,7 +13,6 @@ body {
   overflow-x: hidden;
   font-family: "Inconsolata", monospace; 
   background: #FCFCFC;
-  color: #5c5c55;
 }
 
 video {
@@ -30,7 +29,7 @@ b {
 p {
   line-height: 1.75; 
   font-size: 18px;
-  color: #3C495D;
+  color: #5c5c5c;
 }
 
 li {
