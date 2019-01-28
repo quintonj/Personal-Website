@@ -12,7 +12,7 @@
 body {
   overflow-x: hidden;
   font-family: "Inconsolata", monospace; 
-  background: #EDF1F2;
+  background: #FCFCFC;
 }
 
 video {
@@ -56,14 +56,14 @@ h4 {
   font-weight: 700;
   font-family: 'Inconsolata', monospace; 
   text-transform: uppercase;
-  color: #242A42; 
+  color: #222222; 
 }
 
 h5 {
   font-size: 20px;
   font-weight: bold;
   font-family: 'Inconsolata', monospace; 
-  color: #242A42;
+  color: #222222;
 }
 
 h6 {
@@ -72,7 +72,7 @@ h6 {
   font-weight: normal;
   font-size: 17px;
   line-height: 1.75; 
-  color: #242A42;
+  color: #222222;
 }
 
 h7 {
@@ -83,17 +83,15 @@ h7 {
 }
 
 hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #242A42;
-  margin: 0 0;
-  padding: 0;
+  line-height: 1.6em;
+  margin-top: -1.6em;
+  margin-bottom: 1.6em;
+  font-size: 14px;
 }
 
 hr.divider {
-  border-top: 4px solid #242A42;
-  margin: 0px 120px;
+  margin: 0px 123px;
+  border-bottom: 1px solid rgba(0,0,0,.1);
 }
 
 @media (max-width: 60rem) {
@@ -296,7 +294,7 @@ header.masthead {
     background-color: white;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.24); }
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.12), 0 2px 2px 0 rgba(0, 0, 0, 0.24); }
     #portfolio .portfolio-item .portfolio-caption h4 {
       margin: 0;
       text-transform: none; }
