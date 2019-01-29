@@ -72,12 +72,12 @@ hr {
 }
 hr.divider {
   margin: 0px 123px;
-  border-bottom: 1px solid rgba(0,0,0,.1);
+  border-bottom: 2px solid rgba(0,0,0,.1);
 }
 @media (max-width: 60rem) {
   hr.divider {
-      border-top: 4px solid #242A42;
-      margin: 0px 15px;
+    margin: 0px 15px;
+    border-bottom: 2px solid rgba(0,0,0,.1);
  }
 }
 section {
