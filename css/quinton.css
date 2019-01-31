@@ -330,6 +330,8 @@ header.masthead .intro-text .intro-heading {
 }
 .portfolio-modal .modalbutton {
   text-align: center;
+  float: right;
+  padding-left: 20px;
 }
 .portfolio-modal .modal-content {
   background: #EDF1F2;
