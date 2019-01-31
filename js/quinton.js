@@ -36,3 +36,8 @@
   });
 
 })(jQuery); // End of use strict
+
+function showModal(id) {
+  $(".modal").modal('hide');
+  $("#" + id).modal('show');
+}
