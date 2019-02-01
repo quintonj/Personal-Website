@@ -165,12 +165,12 @@ img::-moz-selection {
 	text-transform: uppercase;
 }
 #mainNav.navbar-shrink .navbar-brand {
-	color: black;
+	color: var(--color-text);
 	font-family: var(--font-primary);
 	font-size: var(--text-md);
 }
 #mainNav .navbar-brand {
-	color: black;
+	color: var(--color-text);
 	font-family: var(--font-primary);
 	font-size: var(--text-md);
 }
@@ -181,13 +181,13 @@ img::-moz-selection {
 	font-size: var(--text-sm);
 	font-family: var(--font-primary);
 	padding: 0.75em 0;
-	color: black;
+	color: var(--color-text);
 }
 #mainNav .navbar-nav .nav-item .nav-link {
 	font-size: var(--text-sm);
 	font-family: var(--font-primary);
 	padding: 0.75em 0;
-	color: black;
+	color: var(--color-text);
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
 	color: var(--color-primary);
