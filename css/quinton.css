@@ -77,12 +77,10 @@ hr {
   font-size: 14px;
 }
 hr.divider {
-  margin: 0px 123px;
   border-bottom: 2px solid rgba(0,0,0,.1);
 }
 @media (max-width: 60rem) {
   hr.divider {
-    margin: 0px 15px;
     border-bottom: 2px solid rgba(0,0,0,.1);
  }
 }
