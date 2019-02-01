@@ -39,7 +39,7 @@ li {
   font-size: 18px;
 }
 .speciala {
-  color: #FFFFFF;
+  color: white;
 }
 .fa-3x {
   color: white;
@@ -140,7 +140,7 @@ img::-moz-selection {
   text-transform: uppercase;
 }
 #mainNav .navbar-brand {
-  color: #ffffff;
+  color: white;
   font-family: 'Gotham Medium';
 }
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -336,7 +336,7 @@ header.masthead .intro-text .intro-heading {
   padding-left: 20px;
 }
 .portfolio-modal .modal-content {
-  background: #EDF1F2;
+  background: #FBFBFB;
   min-height: 100%;
   padding: 100px 0;
   text-align: left;
@@ -392,7 +392,7 @@ header.masthead .intro-text .intro-heading {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
-  background-color: #222222;
+  background-color: rgb(25, 25, 25);
 }
 .portfolio-modal .close-modal .lr .rl {
  /* Safari and Chrome */
@@ -403,7 +403,7 @@ header.masthead .intro-text .intro-heading {
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
-  background-color: #222222;
+  background-color: rgb(25, 25, 25);
 }
 .portfolio-modal .modal-backdrop {
   display: none;
@@ -446,7 +446,7 @@ ul.social-buttons li a {
   color: white;
   border-radius: 100%;
   outline: none;
-  background-color: #222222;
+  background-color: rgb(25, 25, 25);
   font-family: 'Gotham Medium';
 }
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
