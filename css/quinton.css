@@ -83,9 +83,6 @@ p {
 }
 a {
 	color: var(--color-link);
-	&:visited {
-		color: var(--color-link-visited);
-  }
 }
 b, strong {
 	font-weight: bold;
@@ -461,14 +458,13 @@ ul.social-buttons li a {
 	border-radius: 100%;
 	outline: none;
 	background-color: var(--color-text);
-	font-family: 'Gotham Medium';
+	font-family: var(--font-primary);
 }
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
 	background-color: var(--color-primary);
 }
 .text-primary {
 	color: var(--color-primary);
-	!important;
 }
 .btn-primary {
 	color: white;
