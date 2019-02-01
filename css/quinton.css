@@ -147,10 +147,7 @@ img::-moz-selection {
 	padding-top: 0px;
 }
 #mainNav {
-	background-color: transparent;
-}
-#mainNav.navbar-shrink {
-  background-color: #FBFBFB;
+	background-color: #FBFBFB;
   border-bottom: 1px solid #Dedede;
 }
 #mainNav .navbar-nav {
@@ -173,7 +170,7 @@ img::-moz-selection {
 	font-size: var(--text-md);
 }
 #mainNav .navbar-brand {
-	color: white;
+	color: black;
 	font-family: var(--font-primary);
 	font-size: var(--text-md);
 }
@@ -190,7 +187,7 @@ img::-moz-selection {
 	font-size: var(--text-sm);
 	font-family: var(--font-primary);
 	padding: 0.75em 0;
-	color: white;
+	color: black;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
 	color: var(--color-primary);
