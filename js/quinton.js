@@ -35,7 +35,9 @@
     }
   });
 
-  // BS Modal closings
+  /** 
+   *   BootStrap Modal close functions
+   */
 
   // 1
   $('#portfolioModal1').on('show.bs.modal', function(e) {
