@@ -227,17 +227,9 @@ header.masthead {
 	text-align: center;
 	color: var(--color-headings);
 	background-image: url("../img/bg.png");
-	background-repeat: no-repeat;
-	background-attachment: scroll;
-	background-position: center center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;	
-	height: -webkit-fill-available;
 }
 header.masthead .intro-text {
-	padding-top: 100px;
+	padding-top: 150px;
 	padding-bottom: 0px;
 }
 header.masthead .intro-img {
@@ -256,15 +248,24 @@ header.masthead .intro-text .intro-heading {
 	font-weight: 400;
 	font-style: italic;
 	line-height: var(--heading-line-height);
-	margin-bottom: 25px;
+	margin-bottom: 30px;
 	font-family: var(--font-primary);
 }
 @media (min-width: 768px) {
 	header.masthead {
+		color: var(--color-headings);
+		background-image: url("../img/bg.png");
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		background-position: center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;	
 		height: -webkit-fill-available;
 	}
 	header.masthead .intro-text {
-		padding-top: 350px;
+		padding-top: 300px;
 		padding-bottom: 350px;
 	}
 	header.masthead .intro-img {
