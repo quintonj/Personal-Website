@@ -92,6 +92,14 @@ video {
 	height: auto;
 	vertical-align: middle;
 }
+.abouttext {
+	margin-top: var(--heading-line-height);
+}
+@media (min-width: 768px) {
+	.abouttext {
+		margin-top: 0px;
+	}	
+}
 .speciala {
 	color: var(--color-headings);
 }
