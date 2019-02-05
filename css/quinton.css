@@ -221,8 +221,8 @@ header.masthead {
 	color: var(--color-headings);
 }
 header.masthead .intro-text {
-	padding-top: 300px;
-	padding-bottom: 300px;
+	padding-top: 100px;
+	padding-bottom: 0px;
 }
 header.masthead .intro-text .intro-lead-in {
 	font-size: var(--text-xl);
@@ -245,7 +245,7 @@ header.masthead .intro-text .intro-heading {
 	}
 	header.masthead .intro-text {
 		padding-top: 300px;
-		padding-bottom: 300px;
+		padding-bottom: 350px;
 	}
 	header.masthead .intro-text .intro-lead-in {
 		font-size: var(--text-xxxl);
