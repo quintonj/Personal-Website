@@ -228,7 +228,7 @@ header.masthead {
 	color: var(--color-headings);
 }
 header.masthead .intro-text {
-	padding-top: 150px;
+	padding-top: 100px;
 	padding-bottom: 0px;
 }
 header.masthead .intro-img {
