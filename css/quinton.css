@@ -225,7 +225,7 @@ img::-moz-selection {
 	}
 }
 header.masthead {
-	text-align: left;
+	text-align: center;
 	color: var(--color-headings);
 }
 header.masthead .intro-text {
