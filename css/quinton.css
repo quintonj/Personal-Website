@@ -226,6 +226,15 @@ img::-moz-selection {
 header.masthead {
 	text-align: center;
 	color: var(--color-headings);
+	background-image: url("../img/bg.png");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+	height: -webkit-fill-available;
 }
 header.masthead .intro-text {
 	padding-top: 100px;
@@ -255,7 +264,7 @@ header.masthead .intro-text .intro-heading {
 		height: -webkit-fill-available;
 	}
 	header.masthead .intro-text {
-		padding-top: 300px;
+		padding-top: 350px;
 		padding-bottom: 350px;
 	}
 	header.masthead .intro-img {
