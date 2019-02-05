@@ -233,12 +233,8 @@ header.masthead .intro-text {
 	padding-bottom: 0px;
 }
 header.masthead .intro-img {
-	padding: 70px;
-	position: relative;
-	top: 50%;
-	left: 50%;
-	margin-top: -60%;
-	margin-left: -40%;
+	padding: 80px;
+	margin-top: -30px;
 }
 header.masthead .intro-text .intro-lead-in {
 	font-size: var(--text-xl);
@@ -267,7 +263,7 @@ header.masthead .intro-text .intro-heading {
 		padding: 40px;
 		position: relative;
 		top: 50%;
-		left: 50%;
+		left: 20%;
 		margin-top: -60%;
 		margin-left: -40%;
 	}
