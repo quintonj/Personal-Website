@@ -251,7 +251,6 @@ header.masthead .intro-text .intro-heading {
 }
 @media (min-width: 768px) {
 	header.masthead {
-		background-image: url("../img/bg.png");
 		color: var(--color-headings);
 		background-repeat: no-repeat;
 		background-attachment: scroll;
