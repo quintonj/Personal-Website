@@ -13,7 +13,7 @@
 }
 :root {
 	--font-primary: 'Gotham Bold';
-	--font-secondary: 'adobe-caslon-pro';
+	--font-secondary: "adobe-caslon-pro";
 	--color-primary: #FFBD00;
 	--color-headings: #241c15;
   --color-text: #333333;
@@ -93,12 +93,10 @@ video {
 	vertical-align: middle;
 }
 .abouttext {
-	font-family: var(--font-secondary);
 	margin-top: var(--heading-line-height);
 }
 @media (min-width: 768px) {
 	.abouttext {
-		font-family: var(--font-secondary);
 		margin-top: 0px;
 	}	
 }
