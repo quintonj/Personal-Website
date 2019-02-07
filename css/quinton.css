@@ -93,10 +93,12 @@ video {
 	vertical-align: middle;
 }
 .abouttext {
+	font-family: var(--font-secondary);
 	margin-top: var(--heading-line-height);
 }
 @media (min-width: 768px) {
 	.abouttext {
+		font-family: var(--font-secondary);
 		margin-top: 0px;
 	}	
 }
@@ -262,18 +264,19 @@ header.masthead .intro-text .intro-heading {
 		background-size: cover;	
 		height: -webkit-fill-available;
 		text-align: left;
+		margin-top: 50px;
 	}
 	header.masthead .intro-text {
-		padding-top: 300px;
-		padding-bottom: 300px;
+		padding-top: 50%;
+		padding-bottom: 40%;
 	}
 	header.masthead .intro-img {
 		padding: 60px;
 		position: relative;
 		top: 50%;
-		left: 40%;
-		margin-top: -55%;
-		margin-left: -40%;
+		left: 50%;
+		margin-top: -50%;
+		margin-left: -50%;
 	}
 	header.masthead .intro-text .intro-lead-in {
 		font-size: var(--text-xxxl);
@@ -286,7 +289,7 @@ header.masthead .intro-text .intro-heading {
 		font-weight: 400;
 		line-height: var(--heading-line-height);
 		font-style: italic;
-		margin-bottom: 50px;
+		margin-bottom: 25px;
 		font-family: var(--font-primary);
 	}
 }
