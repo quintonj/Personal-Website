@@ -12,12 +12,12 @@
 	src: local('Gotham Bold'), url('../res/GothamPro-Bold.woff') format('woff');
 }
 :root {
-	--font-primary: 'Gotham Bold';
+	--font-primary: "Gotham Medium";
 	--font-secondary: "adobe-caslon-pro";
 	--color-primary: #FFBD00;
 	--color-headings: #241c15;
-  --color-text: #333333;
-  --color-muted-text: #555555;
+	--color-text: #333333;
+	--color-muted-text: #555555;
 	/* set base values */
 	--text-base-size: 1em;
 	--text-scale-ratio: 1.2;
@@ -47,6 +47,10 @@ h1, h2, h3, h4, form legend {
 	margin-bottom: var(--space-md);
 	line-height: var(--heading-line-height);
 	text-transform: uppercase;
+}
+.section-heading {
+	border-left: 3px solid var(--color-primary);
+	padding-left: 20px;
 }
 h5 {
 	margin-bottom: var(--space-md);
@@ -101,7 +105,7 @@ video {
 	}	
 }
 .speciala {
-	color: var(--color-headings);
+	color: #FBFBFB;
 }
 .fa-3x {
 	color: white;
@@ -184,6 +188,7 @@ img::-moz-selection {
 #mainNav .navbar-nav .nav-item .nav-link {
 	font-size: var(--text-xs);
 	font-family: var(--font-primary);
+	font-weight: 700;
 	padding: 0.75em 0;
 	color: var(--color-headings);
 	text-transform: uppercase;
@@ -224,8 +229,12 @@ img::-moz-selection {
 	}
 }
 header.masthead {
+	background-color: #16DEA7;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 100px;
 	text-align: center;
-	color: var(--color-headings);
+	color: #FBFBFB;
 }
 header.masthead .intro-text {
 	padding-top: 100px;
@@ -237,10 +246,10 @@ header.masthead .intro-img {
 }
 header.masthead .intro-text .intro-lead-in {
 	font-size: var(--text-xl);
-	font-weight: bold;
 	line-height: var(--heading-line-height);
 	margin-bottom: 30px;
 	font-family: var(--font-primary);
+	font-weight: 700;
 }
 header.masthead .intro-text .intro-heading {
 	font-size: var(--text-lg);
@@ -251,41 +260,30 @@ header.masthead .intro-text .intro-heading {
 }
 @media (min-width: 768px) {
 	header.masthead {
-		color: var(--color-headings);
-		background-repeat: no-repeat;
-		background-attachment: scroll;
-		background-position: center center;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;	
-		height: -webkit-fill-available;
 		text-align: left;
-		margin-top: 50px;
 	}
 	header.masthead .intro-text {
-		padding-top: 50%;
-		padding-bottom: 40%;
+		padding-top: 35%;
+		padding-bottom: 39%;
 	}
 	header.masthead .intro-img {
 		padding: 60px;
 		position: relative;
 		top: 50%;
-		left: 50%;
+		left: 55%;
 		margin-top: -50%;
 		margin-left: -50%;
 	}
 	header.masthead .intro-text .intro-lead-in {
-		font-size: var(--text-xxxl);
+		font-size: 3.1em;
 		line-height: var(--heading-line-height);
 		margin-bottom: 25px;
 		font-family: var(--font-primary);
 	}
 	header.masthead .intro-text .intro-heading {
-		font-size: var(--text-xl);
+		font-size: var(--text-md);
 		font-weight: 400;
 		line-height: var(--heading-line-height);
-		font-style: italic;
 		margin-bottom: 25px;
 		font-family: var(--font-primary);
 	}
