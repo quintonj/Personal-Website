@@ -238,7 +238,6 @@ header.masthead {
 	margin-top: 100px;
 	text-align: center;
 	color: var(--color-headings);
-	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.12), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 header.masthead .intro-text {
 	padding-top: 30px;
