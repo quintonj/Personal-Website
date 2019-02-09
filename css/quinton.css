@@ -232,12 +232,12 @@ img::-moz-selection {
 	}
 }
 header.masthead {
-	background-color: #17EBB1;
+	background-color: #16D9A3;
 	margin-left: 20px;
 	margin-right: 20px;
 	margin-top: 100px;
 	text-align: center;
-	color: var(--color-headings);
+	color: var(--color-headings); 
 }
 header.masthead .intro-text {
 	padding-top: 30px;
@@ -253,6 +253,7 @@ header.masthead .intro-text .intro-lead-in {
 	margin-bottom: 30px;
 	font-family: var(--font-primary);
 	font-weight: 700;
+	text-transform: uppercase;
 }
 header.masthead .intro-text .intro-heading {
 	font-size: var(--text-lg);
@@ -278,7 +279,7 @@ header.masthead .intro-text .intro-heading {
 		margin-left: -50%;
 	}
 	header.masthead .intro-text .intro-lead-in {
-		font-size: 3em;
+		font-size: 2.75em;
 		line-height: var(--heading-line-height);
 		margin-bottom: 25px;
 		font-family: var(--font-primary);
