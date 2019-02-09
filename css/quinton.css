@@ -1,19 +1,19 @@
 /* --------------------------------Typography-------------------------------- */
 @font-face {
-	font-family: 'Gotham Medium';
+	font-family: 'Colfax Medium';
 	font-style: normal;
 	font-weight: normal;
-	src: local('Gotham Medium'), url('../res/GothamPro-Medium.woff') format('woff');
+	src: local('Colfax Medium'), url('../res/Colfax-Medium.otf') format('otf');
 }
 @font-face {
-	font-family: 'Gotham Bold';
+	font-family: 'Colfax Bold';
 	font-style: normal;
 	font-weight: normal;
-	src: local('Gotham Bold'), url('../res/GothamPro-Bold.woff') format('woff');
+	src: local('Colfax Bold'), url('../res/Colfax-Bold.otf') format('otf');
 }
 :root {
-	--font-primary: 'din-2014';
-	--font-secondary: "din-2014";
+	--font-primary: 'Colfax';
+	--font-secondary: 'Colfax';
 	--color-primary: #FFBD00;
 	--color-headings: #241c15;
 	--color-text: #333333;
@@ -193,7 +193,7 @@ img::-moz-selection {
 	font-family: var(--font-primary);
 	font-weight: 700;
 	padding: 0.75em 0;
-	color: var(--color-headings);
+	color: var(--color-muted-text);
 	text-transform: uppercase;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -253,14 +253,13 @@ header.masthead .intro-text .intro-lead-in {
 	margin-bottom: 30px;
 	font-family: var(--font-primary);
 	font-weight: 700;
-	text-transform: uppercase;
 }
 header.masthead .intro-text .intro-heading {
 	font-size: var(--text-lg);
 	font-weight: 400;
 	line-height: var(--heading-line-height);
 	margin-bottom: 30px;
-	font-family: var(--font-primary);
+	font-family: var(--font-secondary);
 }
 @media (min-width: 768px) {
 	header.masthead {
@@ -279,7 +278,7 @@ header.masthead .intro-text .intro-heading {
 		margin-left: -50%;
 	}
 	header.masthead .intro-text .intro-lead-in {
-		font-size: 2.5em;
+		font-size: 3em;
 		line-height: var(--heading-line-height);
 		margin-bottom: 25px;
 		font-family: var(--font-primary);
@@ -289,7 +288,6 @@ header.masthead .intro-text .intro-heading {
 		font-weight: 400;
 		line-height: var(--heading-line-height);
 		margin-bottom: 25px;
-		font-family: var(--font-primary);
 	}
 }
 .service-heading {
@@ -348,7 +346,7 @@ header.masthead .intro-text .intro-heading {
 	margin: 0;
 }
 #portfolio .portfolio-item .portfolio-caption {
-  color: var(--color-muted-text);
+  color: var(--color-text);
 	max-width: 400px;
 	margin: 0 auto;
 	padding: 25px;
