@@ -12,8 +12,8 @@
 	src: local('Gotham Bold'), url('../res/GothamPro-Bold.woff') format('woff');
 }
 :root {
-	--font-primary: "Gotham Medium";
-	--font-secondary: "adobe-caslon-pro";
+	--font-primary: 'din-2014';
+	--font-secondary: "din-2014";
 	--color-primary: #FFBD00;
 	--color-headings: #241c15;
 	--color-text: #333333;
@@ -47,9 +47,10 @@ h1, h2, h3, h4, form legend {
 	margin-bottom: var(--space-md);
 	line-height: var(--heading-line-height);
 	text-transform: uppercase;
+	font-weight: 700;
 }
 .section-heading {
-	border-left: 3px solid var(--color-primary);
+	border-left: 5px solid var(--color-primary);
 	padding-left: 20px;
 }
 h5 {
@@ -57,6 +58,7 @@ h5 {
 	font-family: var(--font-primary);
 	font-size: var(--text-base-size);
 	color: var(--color-headings);
+	font-weight: 700;
 }
 /* text size */
 .text--xxxl {
@@ -105,7 +107,7 @@ video {
 	}	
 }
 .speciala {
-	color: #FBFBFB;
+	color: var(--color-headings);
 }
 .fa-3x {
 	color: white;
@@ -175,18 +177,19 @@ img::-moz-selection {
 #mainNav.navbar-shrink .navbar-brand {
 	color: var(--color-headings);
 	font-family: var(--font-primary);
-	font-size: var(--text-md);
+	font-size: var(--text-lg);
+	font-weight: 700;
 }
 #mainNav .navbar-brand {
 	color: var(--color-text);
 	font-family: var(--font-primary);
-	font-size: var(--text-md);
+	font-size: var(--text-lg);
 }
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
 	color: var(--color-headings);
 }
 #mainNav .navbar-nav .nav-item .nav-link {
-	font-size: var(--text-xs);
+	font-size: var(--text-sm);
 	font-family: var(--font-primary);
 	font-weight: 700;
 	padding: 0.75em 0;
@@ -224,17 +227,17 @@ img::-moz-selection {
 		border-bottom: 1px solid #Dedede;
 	}
 	#mainNav.navbar-shrink .navbar-brand {
-		font-family: var(--font-md);
+		font-family: var(--font-lg);
 		padding: 10px 0;
 	}
 }
 header.masthead {
-	background-color: #16DEA7;
+	background-color: #17E8AF;
 	margin-left: 20px;
 	margin-right: 20px;
 	margin-top: 100px;
 	text-align: center;
-	color: #FBFBFB;
+	color: var(--color-headings);
 }
 header.masthead .intro-text {
 	padding-top: 30px;
@@ -250,6 +253,7 @@ header.masthead .intro-text .intro-lead-in {
 	margin-bottom: 30px;
 	font-family: var(--font-primary);
 	font-weight: 700;
+	text-transform: uppercase;
 }
 header.masthead .intro-text .intro-heading {
 	font-size: var(--text-lg);
@@ -275,13 +279,13 @@ header.masthead .intro-text .intro-heading {
 		margin-left: -50%;
 	}
 	header.masthead .intro-text .intro-lead-in {
-		font-size: 3.1em;
+		font-size: 2.5em;
 		line-height: var(--heading-line-height);
 		margin-bottom: 25px;
 		font-family: var(--font-primary);
 	}
 	header.masthead .intro-text .intro-heading {
-		font-size: var(--text-md);
+		font-size: var(--text-lg);
 		font-weight: 400;
 		line-height: var(--heading-line-height);
 		margin-bottom: 25px;
@@ -357,10 +361,11 @@ header.masthead .intro-text .intro-heading {
 #portfolio .portfolio-item .portfolio-caption h4 {
 	margin: 0;
 	text-transform: none;
+	font-weight: 400;
 }
 #portfolio .portfolio-item .portfolio-caption p {
-  font-size: var(--text-xs);
-  color: var(--color-muted-text);
+	font-size: var(--text-sm);
+	color: var(--color-muted-text);
 	margin: 0;
 	font-family: var(--font-primary);
 }
