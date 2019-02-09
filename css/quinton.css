@@ -1,19 +1,19 @@
 /* --------------------------------Typography-------------------------------- */
 @font-face {
-	font-family: 'Colfax Medium';
+	font-family: 'Colfax';
 	font-style: normal;
 	font-weight: normal;
-	src: local('Colfax Medium'), url('../res/Colfax-Medium.otf') format('otf');
+	src: local('Colfax'), url('../res/colfaxRegular.woff') format('woff');
 }
 @font-face {
 	font-family: 'Colfax Bold';
 	font-style: normal;
 	font-weight: normal;
-	src: local('Colfax Bold'), url('../res/Colfax-Bold.otf') format('otf');
+	src: local('Colfax Bold'), url('../res/colfaxBold.woff') format('woff');
 }
 :root {
-	--font-primary: 'Colfax';
-	--font-secondary: 'Colfax';
+	--font-primary: 'Colfax', sans-serif;
+	--font-secondary: 'Colfax', sans-serif;
 	--color-primary: #FFBD00;
 	--color-headings: #241c15;
 	--color-text: #333333;
@@ -238,6 +238,7 @@ header.masthead {
 	margin-top: 100px;
 	text-align: center;
 	color: var(--color-headings);
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.12), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 header.masthead .intro-text {
 	padding-top: 30px;
