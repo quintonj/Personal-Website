@@ -232,7 +232,7 @@ img::-moz-selection {
 	}
 }
 header.masthead {
-	background-color: #17E8AF;
+	background-color: #17EBB1;
 	margin-left: 20px;
 	margin-right: 20px;
 	margin-top: 100px;
@@ -462,6 +462,7 @@ ul.social-buttons {
 ul.social-buttons li a {
 	font-size: var(--text-md);
 	line-height: var(--body-line-height);
+	padding-top: 1px;
 	display: block;
 	width: 40px;
 	height: 40px;
