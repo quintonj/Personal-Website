@@ -12,7 +12,7 @@
 	src: local('Colfax Bold'), url('../res/colfaxBold.woff') format('woff');
 }
 :root {
-	--font-primary: 'Colfax', sans-serif;
+	--font-primary: 'Colfax Bold', sans-serif;
 	--font-secondary: 'Colfax', sans-serif;
 	--color-primary: #FD5523;
 	--color-accent: #1FE0AC;
@@ -48,7 +48,7 @@ h1, h2, h3, h4, form legend {
 	margin-bottom: var(--space-md);
 	line-height: var(--heading-line-height);
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 400;
 }
 .section-heading {
 	border-left: 5px solid var(--color-primary);
@@ -59,7 +59,7 @@ h5 {
 	font-family: var(--font-primary);
 	font-size: var(--text-base-size);
 	color: var(--color-headings);
-	font-weight: 700;
+	font-weight: 400;
 }
 /* text size */
 .text--xxxl {
@@ -179,7 +179,7 @@ img::-moz-selection {
 	color: var(--color-headings);
 	font-family: var(--font-primary);
 	font-size: var(--text-lg);
-	font-weight: 700;
+	font-weight: 400;
 }
 #mainNav .navbar-brand {
 	color: var(--color-text);
@@ -192,9 +192,9 @@ img::-moz-selection {
 #mainNav .navbar-nav .nav-item .nav-link {
 	font-size: var(--text-sm);
 	font-family: var(--font-primary);
-	font-weight: 700;
+	font-weight: 400;
 	padding: 0.75em 0;
-	color: var(--color-muted-text);
+	color: var(--color-headings);
 	text-transform: uppercase;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -250,8 +250,8 @@ header.masthead .intro-text .intro-lead-in {
 	font-size: var(--text-xl);
 	line-height: var(--heading-line-height);
 	margin-bottom: 30px;
-	font-family: var(--font-primary);
-	font-weight: 700;
+	font-family: "Colfax Bold";
+	font-weight: 400;
 	text-transform: uppercase;
 }
 header.masthead .intro-text .intro-heading {
@@ -278,10 +278,9 @@ header.masthead .intro-text .intro-heading {
 		margin-left: -50%;
 	}
 	header.masthead .intro-text .intro-lead-in {
-		font-size: 2.75em;
+		font-size: 2.8em;
 		line-height: var(--heading-line-height);
 		margin-bottom: 25px;
-		font-family: var(--font-primary);
 	}
 	header.masthead .intro-text .intro-heading {
 		font-size: var(--text-lg);
@@ -361,12 +360,13 @@ header.masthead .intro-text .intro-heading {
 	margin: 0;
 	text-transform: none;
 	font-weight: 400;
+	font-family: var(--font-secondary);
 }
 #portfolio .portfolio-item .portfolio-caption p {
 	font-size: var(--text-sm);
 	color: var(--color-text);
 	margin: 0;
-	font-family: var(--font-primary);
+	font-family: var(--font-secondary);
 }
 #portfolio * {
 	z-index: 2;
@@ -528,7 +528,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 	color: white;
 	border-color: var(--color-primary);
 	background-color: var(--color-primary);
-	font-weight: 700;
+	font-weight: 400;
 	text-transform: uppercase;
 	border: none;
 	border-radius: 300px;
