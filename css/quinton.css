@@ -165,13 +165,11 @@ img::-moz-selection {
 	padding-left: 20px;
 }
 #mainNav .navbar-toggler {
-	font-size: var(--text-sm);
+	font-size: var(--text-lg);
 	right: 0;
-	padding: 13px;
 	text-transform: uppercase;
-	color: white;
+	color: var(--color-headings);
 	border: 0;
-	background-color: var(--color-primary);
 	font-family: var(--font-primary);
 	text-transform: uppercase;
 }
