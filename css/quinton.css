@@ -16,8 +16,8 @@
 	--font-secondary: 'Colfax', sans-serif;
 	--color-primary: #FD5523;
 	--color-accent: #1FE0AC;
-	--color-headings: #080808;
-	--color-text: #333333;
+	--color-headings: #171717;
+	--color-text: #222222;
 	--color-muted-text: #555555;
 	/* set base values */
 	--text-base-size: 1em;
@@ -165,7 +165,7 @@ img::-moz-selection {
 	padding-left: 20px;
 }
 #mainNav .navbar-toggler {
-	font-size: var(--text-lg);
+	font-size: var(--text-md);
 	right: 0;
 	text-transform: uppercase;
 	color: var(--color-headings);
@@ -176,13 +176,13 @@ img::-moz-selection {
 #mainNav.navbar-shrink .navbar-brand {
 	color: var(--color-headings);
 	font-family: var(--font-primary);
-	font-size: var(--text-lg);
+	font-size: var(--text-md);
 	font-weight: 400;
 }
 #mainNav .navbar-brand {
 	color: var(--color-text);
 	font-family: var(--font-primary);
-	font-size: var(--text-lg);
+	font-size: var(--text-md);
 }
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
 	color: var(--color-headings);
@@ -207,11 +207,10 @@ img::-moz-selection {
 		border-bottom: 1px solid #Dedede;
   }
 	#mainNav .navbar-brand {
-		font-family: var(--font-primary);
 		-webkit-transition: all 0.3s;
 		-moz-transition: all 0.3s;
 		transition: all 0.3s;
-		color: var(--color-headings);
+		font-size: var(--text-lg);
 	}
 	#mainNav .navbar-nav .nav-item .nav-link {
 		padding: 1.1em 1em !important;
@@ -224,8 +223,8 @@ img::-moz-selection {
 		border-bottom: 1px solid #Dedede;
 	}
 	#mainNav.navbar-shrink .navbar-brand {
-		font-family: var(--font-lg);
 		padding: 10px 0;
+		font-size: var(--text-lg);
 	}
 }
 header.masthead {
