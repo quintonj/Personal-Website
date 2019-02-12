@@ -16,8 +16,8 @@
 	--font-secondary: 'Colfax', sans-serif;
 	--color-primary: #FD5523;
 	--color-accent: #1FE0AC;
-	--color-headings: #171717;
-	--color-text: #222222;
+	--color-headings: #222222;
+	--color-text: rgba(0, 0, 0, 0.84);
 	--color-muted-text: #555555;
 	/* set base values */
 	--text-base-size: 1em;
