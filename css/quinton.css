@@ -47,7 +47,6 @@ h1, h2, h3, h4, form legend {
 	color: var(--color-headings);
 	margin-bottom: var(--space-md);
 	line-height: var(--heading-line-height);
-	text-transform: uppercase;
 	font-weight: 400;
 }
 .section-heading {
@@ -249,7 +248,6 @@ header.masthead .intro-text .intro-lead-in {
 	margin-bottom: 30px;
 	font-family: "Colfax Bold";
 	font-weight: 400;
-	text-transform: uppercase;
 }
 header.masthead .intro-text .intro-heading {
 	font-size: var(--text-lg);
@@ -275,7 +273,7 @@ header.masthead .intro-text .intro-heading {
 		margin-left: -50%;
 	}
 	header.masthead .intro-text .intro-lead-in {
-		font-size: 2.8em;
+		font-size: 3.2em;
 		line-height: var(--heading-line-height);
 		margin-bottom: 25px;
 	}
