@@ -359,7 +359,7 @@ header.masthead .intro-text .intro-heading {
 }
 #portfolio .portfolio-item .portfolio-caption p {
 	font-size: var(--text-sm);
-	color: var(--color-text);
+	color: var(--color-muted-text);
 	margin: 0;
 	font-family: var(--font-secondary);
 }
