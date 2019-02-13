@@ -463,7 +463,7 @@ ul.social-buttons li a {
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
-	color: var(--color-headings);
+	color: var(--color-muted-text);
 	border-radius: 100%;
 	outline: none;
 	font-family: var(--font-primary);
