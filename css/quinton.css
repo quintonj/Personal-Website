@@ -216,8 +216,8 @@ img::-moz-selection {
 	}
 	#mainNav.navbar-shrink {
 		font-family: var(--font-primary);
-		padding-top: 10px;
-		padding-bottom: 10px;
+		padding-top: 7px;
+		padding-bottom: 7px;
 		background-color: #FBFBFB;
 		border-bottom: 1px solid #Dedede;
 	}
@@ -261,8 +261,8 @@ header.masthead .intro-text .intro-heading {
 		text-align: left;
 	}
 	header.masthead .intro-text {
-		padding-top: 35%;
-		padding-bottom: 39%;
+		padding-top: 30%;
+		padding-bottom: 35%;
 	}
 	header.masthead .intro-img {
 		padding: 60px;
