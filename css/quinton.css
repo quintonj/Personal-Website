@@ -98,6 +98,20 @@ video {
 	height: auto;
 	vertical-align: middle;
 }
+.work-intro-quote::before {
+	content: '“';
+	position: absolute;
+	font-size: 80px;
+	opacity: 0.05;
+	top: 40px;
+	left: -20px;
+	font-family: --var(--font-primary);
+	font-weight: 600;
+  }
+.row .stats {
+	margin-top: 40px;
+	margin-bottom: 23px;
+}
 .abouttext {
 	margin-top: var(--heading-line-height);
 }
@@ -400,7 +414,8 @@ header.masthead .intro-text .intro-heading {
 	margin-bottom: 30px;
 }
 .portfolio-modal .modal-content img {
-	margin-bottom: 30px;
+	margin-top: 35px;
+	margin-bottom: 35px;
 }
 .portfolio-modal .modal-content button {
 	cursor: pointer;
